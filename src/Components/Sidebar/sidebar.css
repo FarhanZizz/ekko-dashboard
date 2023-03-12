@@ -1,0 +1,92 @@
+.sidebar {
+  margin: 32px 0 0 32px;
+  width: 330px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #f8f988;
+  border-radius: 40px;
+  padding-bottom: 35px;
+}
+.profile-card {
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 63px;
+  background: linear-gradient(
+    315.95deg,
+    #000000 58.32%,
+    rgba(255, 255, 255, 0) 203.98%
+  );
+  filter: drop-shadow(13.0709px 13.0709px 104.567px rgba(63, 39, 102, 0.1));
+  backdrop-filter: blur(13.0709px);
+  border-radius: 32px;
+  padding-bottom: 52px;
+}
+.card-img {
+  margin-top: -73px;
+  width: 116px;
+  height: 116px;
+}
+.profile-card > h1 {
+  font-weight: 900;
+  font-size: 32px;
+  color: white;
+}
+.profile-card > span {
+  font-weight: 600;
+  font-size: 14px;
+  color: #959ba5;
+}
+.socials {
+  width: 80%;
+  display: flex;
+  margin-top: 22px;
+  justify-content: space-around;
+}
+.buttons {
+  margin-top: 47px;
+  display: flex;
+  flex-direction: column;
+}
+.buttons > .nav-button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background: none;
+  text-align: left;
+  width: 280px;
+  padding: 16px 23px 12px 23px;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+.buttons > .active {
+  border-radius: 30px;
+  background: black;
+  color: white;
+}
+
+.account {
+  margin-top: 110px;
+  width: 215px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 24px 16px;
+  background: white;
+  border: 2px solid #1c1c1c;
+  border-radius: 20px;
+}
+.account > div > h3 {
+  font-weight: 600;
+  font-size: 14px;
+}
+.account > div > span {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,25 @@
+.sidebar-btn {
+  display: flex;
+  flex-direction: row;
+  margin: 26px 0 52px 45px;
+  gap: 15px;
+}
+.sidebar-btn > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+  width: 59px;
+  height: 59px;
+  border-radius: 50%;
+}
+/* .theme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+  width: 59px;
+  height: 59px;
+  margin-left: 45px;
+  border-radius: 50%;
+} */
